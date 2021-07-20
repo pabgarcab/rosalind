@@ -1,0 +1,4 @@
+DNA = " " #Insert DNA here
+RNA = DNA.replace("T","U")
+
+print(RNA)
