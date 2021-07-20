@@ -1,0 +1,11 @@
+up = " " #Insert the up sequence here
+
+low = up.replace("A","t").replace("T","a").replace("G","c").replace("C","g").upper()
+
+def invertir(cadena):  
+    rev = ""  
+    for nt in cadena:
+        rev = nt + rev
+    return rev
+
+print(invertir(low))
