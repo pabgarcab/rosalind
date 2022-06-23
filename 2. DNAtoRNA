@@ -1,4 +1,6 @@
-DNA = " " #Insert DNA here
-RNA = DNA.replace("T","U")
+#!/usr/bin/env python
 
-print(RNA)
+dna = " "  # Insert DNA string here
+rna = dna.replace("T","U")
+
+print("The RNA string is:", rna)
