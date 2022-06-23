@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 seq = " " #Insert DNA here
+
 A = seq.count("A")
 G = seq.count("G") 
 C = seq.count("C")
